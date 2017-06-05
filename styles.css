@@ -1,0 +1,136 @@
+#css-zen-garden {
+    background-image: url(modern.jpg);
+    display: flex;
+    opacity: 0.9;
+    padding: 2px;
+}
+
+p {
+    color: #64e6fb;
+    opacity: 1.5;
+}
+
+h1 {
+    color: #81fdff;
+    border: 2px solid#4a5e66;
+    border-radius: 3px;
+    width: 32%;
+    opacity: 1.5;
+}
+
+h2 {
+    color: #81fdff;
+    border: 2px solid#4a5e66;
+    opacity: 1.5;
+    border-radius: 3px;
+    width: 49%;
+}
+
+h3 {
+    color: #81fdff;
+    opacity: 1.5;
+}
+
+a {
+    text-decoration: none;
+    border: 2px solid#4a5e66;
+    border-radius: 3px;
+    color: #81fdff;
+    opacity: 1.5;
+}
+
+.page-wrapper {}
+
+.intro {
+    background-color: black;
+    width: 45%;
+    float: left;
+    margin: 10px;
+    overflow: scroll;
+}
+
+.intro::-webkit-scrollbar {
+    display: none;
+}
+
+#zen-intro {}
+
+.summary {
+    float: left;
+}
+
+#zen-summary {}
+
+.preamble {
+    float: left;
+}
+
+#zen-preamble {}
+
+.main supporting {
+    margin: 3px;
+}
+
+#zen-supporting {}
+
+.explanation {
+    background-color: black;
+    width: 45%;
+    float: left;
+    margin: 10px;
+}
+
+#zen-explanation {}
+
+.participation {
+    background-color: black;
+    width: 45%;
+    float: left;
+    margin: 10px;
+}
+
+#zen-participation {}
+
+.benefits {
+    background-color: black;
+    width: 45%;
+    margin: 10px;
+    padding-top: 45px;
+}
+
+#zen-benefits {}
+
+.requirements {
+    background-color: black;
+    width: 45%;
+    height: 200px;
+    float: left;
+    overflow: scroll;
+    margin: 10px;
+}
+
+.requirements::-webkit-scrollbar {
+    display: none;
+}
+
+#zen-requirements {}
+
+.sidebar {
+    float: left;
+    width: 35%;
+    overflow-wrap: wrap;
+}
+
+.wrapper {}
+
+.design-selection {
+    background-color: black;
+    width: 45%;
+    margin: 3px;
+}
+
+#design-selection {}
+
+.select {
+    padding: 1px;
+}
